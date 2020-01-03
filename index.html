@@ -1,24 +1,34 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-  <meta charset="utf-8" />
+  <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta http-equiv="cleartype" content="on">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>中文写作风格指南</title>
-  <link rel="stylesheet" href="https://unpkg.com/docute@latest/dist/docute.css">
+  <link rel="stylesheet" href="https://unpkg.com/docute@4/dist/docute.css">
 </head>
+
 <body>
-  <!-- don't remove this part -->
-  <div id="app"></div>
+  <div id="docute"></div>
+  <script src="https://unpkg.com/docute@4/dist/docute.js"></script>
   <script>
-    self.$config = {
-      title: '中文写作风格指南',
-      repo: 'richardchien/chinese-writing-style-guide',
-      'edit-link': 'https://github.com/richardchien/chinese-writing-style-guide/blob/master',
-      url: 'https://richardchien.github.io/chinese-writing-style-guide',
-    };
+    new Docute({
+      target: '#docute',
+      layout: 'narrow',
+      sidebar: [
+        {
+          title: '指南',
+          link: '/'
+        },
+        {
+          title: 'GitHub',
+          link: 'https://github.com/richardchien/chinese-writing-style-guide'
+        }
+      ],
+    })
   </script>
-  <script src="https://unpkg.com/docute@latest/dist/docute.js"></script>
 </body>
+
 </html>
