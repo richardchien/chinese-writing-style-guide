@@ -16,6 +16,10 @@
   <script>
     new Docute({
       target: '#docute',
+      editLinkBase: 'https://github.com/richardchien/chinese-writing-style-guide/blob/master/',
+      editLinkText: '编辑此页面',
+      detectSystemDarkTheme: true,
+      darkThemeToggler: true,
       layout: 'narrow',
       sidebar: [
         {
@@ -27,6 +31,13 @@
           link: 'https://github.com/richardchien/chinese-writing-style-guide'
         }
       ],
+      footer: {
+        template: `
+        <div style="border-top:1px solid var(--border-color);padding-top:30px;margin: 40px 0;color:#999999;font-size: .9rem;">
+        &copy; ${new Date().getFullYear()} <a href="https://stdrc.cc" target="_blank">Richard Chien</a>. 本作品采用 <a rel="license" href="https://creativecommons.org/licenses/by/4.0/deed.zh" target="_blank">CC BY 4.0</a> 进行许可.
+        </div>
+        `
+      },
     })
   </script>
 </body>
