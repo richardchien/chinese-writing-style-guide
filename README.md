@@ -1,6 +1,6 @@
 # 中文写作风格指南
 
-> 此 repo 不再更新，以后如果有更新内容会直接放在 https://stdrc.cc/style-guide/chinese.html
+> 此 repo 不再更新，以后如果有更新内容会直接放在 https://stdrc.cc/style-guides/chinese.html
 
 依据其它文案排版风格指南以及自身体验总结而来，部分条目略有个人色彩。欢迎 fork 后按自己的喜好修改。
 
